@@ -12,4 +12,9 @@ public class Bullet : MonoBehaviour {
 	void Update () {
 		transform.Translate (Vector3.forward * 0.2f);
 	}
+
+	void OnCollisionEnter(Collision col)
+	{
+		Destroy (gameObject);
+	}
 }

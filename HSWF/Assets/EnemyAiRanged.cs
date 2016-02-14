@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyAI : MonoBehaviour {
+public class EnemyAiRanged : MonoBehaviour {
 
 	public float range;
 
-	public float left;
-	public float right;
+	public GameObject left;
+	public GameObject right;
+	public float lx;
+	public float rx;
 
 	public float position;
 	public float start;
@@ -37,8 +39,8 @@ public class EnemyAI : MonoBehaviour {
 		current = State.IDLE;
 		move = false;
 		timerO = timer;
-		left = transform.position.x - range;
-		right = transform.position.x + range;
+		lx = left.transform.position.x;
+		rx = right.transform.position.x;
 	}
 	
 	// Update is called once per frame
@@ -57,7 +59,7 @@ public class EnemyAI : MonoBehaviour {
 		} else {
 			if(!move)
 			{
-				position = Random.Range(left, right);
+				position = Random.Range(lx, rx);
 				start = transform.position.x;
 				move = true;
 			}
