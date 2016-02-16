@@ -15,6 +15,7 @@ public class Player : MonoBehaviour {
 	public int health;
 
 	public bool canJump;
+	public bool detach;
 
 	[Range(0.1f, 2.0f)]
 	public float speed = 0.1f;
@@ -32,6 +33,9 @@ public class Player : MonoBehaviour {
 	public Image s5;
 
 	public Color c;
+
+	public float lastPosX;
+	public float lastPosY;
 
 	// Use this for initialization
 	void Start () {
@@ -76,6 +80,13 @@ public class Player : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space) && canJump) {
 			
 			body.AddForce(new Vector3(0f, jumpForce, 0f));
+		}
+
+		if (Input.GetKeyDown (KeyCode.F)) {
+			lastPosX = transform.position.x;
+			lastPosY = transform.position.y;
+			detach = !detach;
+
 		}
 	}
 
