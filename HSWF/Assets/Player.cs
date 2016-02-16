@@ -22,7 +22,6 @@ public class Player : MonoBehaviour {
 
 	public Rigidbody body;
 
-	[Range(100f, 250.0f)]
 	public float jumpForce;
 
 	public GameObject panel;
