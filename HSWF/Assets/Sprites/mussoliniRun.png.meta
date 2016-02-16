@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: f559f5cc76f7a3448926f9815bd6aeac
+timeCreated: 1455573819
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mussoliniRun_0
+    21300002: mussoliniRun_1
+    21300004: mussoliniRun_2
+    21300006: mussoliniRun_3
+    21300008: mussoliniRun_4
+    21300010: mussoliniRun_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mussoliniRun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 62}
+        - {x: -40, y: 51}
+        - {x: -41, y: 13}
+        - {x: -79, y: -120}
+        - {x: -79, y: -139}
+        - {x: -78, y: -140}
+        - {x: -64, y: -147}
+        - {x: 22, y: -147}
+        - {x: 63, y: -97}
+        - {x: 63, y: 32}
+        - {x: 43, y: 62}
+      - - {x: 31, y: 128}
+        - {x: -5, y: 128}
+        - {x: -20, y: 123}
+        - {x: -20, y: 81}
+        - {x: -15, y: 68}
+        - {x: 35, y: 68}
+        - {x: 41, y: 76}
+        - {x: 41, y: 120}
+    - name: mussoliniRun_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: -78}
+        - {x: 71, y: -81}
+        - {x: 99, y: 68}
+        - {x: 99, y: 72}
+        - {x: -63, y: 72}
+        - {x: -88, y: -1}
+        - {x: -88, y: -114}
+        - {x: 80, y: -114}
+        - {x: 99, y: -87}
+        - {x: 99, y: -81}
+        - {x: 98, y: -78}
+      - - {x: 35, y: 135}
+        - {x: -1, y: 135}
+        - {x: -16, y: 130}
+        - {x: -16, y: 88}
+        - {x: -11, y: 75}
+        - {x: 39, y: 75}
+        - {x: 45, y: 83}
+        - {x: 45, y: 127}
+    - name: mussoliniRun_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 41}
+        - {x: 54, y: 55}
+        - {x: 48, y: 62}
+        - {x: -38, y: 62}
+        - {x: -67, y: 52}
+        - {x: -69, y: 26}
+        - {x: -69, y: -131}
+        - {x: 2, y: -110}
+        - {x: 8, y: -96}
+        - {x: 0, y: -59}
+        - {x: 13, y: -94}
+        - {x: 5, y: -139}
+        - {x: 12, y: -141}
+        - {x: 53, y: -141}
+        - {x: 54, y: -138}
+        - {x: 54, y: -133}
+        - {x: 47, y: -122}
+      - - {x: 39, y: 128}
+        - {x: 3, y: 128}
+        - {x: -12, y: 123}
+        - {x: -12, y: 81}
+        - {x: -7, y: 68}
+        - {x: 43, y: 68}
+        - {x: 49, y: 76}
+        - {x: 49, y: 120}
+    - name: mussoliniRun_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 17}
+        - {x: 51, y: 62}
+        - {x: 49, y: 72}
+        - {x: -32, y: 72}
+        - {x: -63, y: 64}
+        - {x: -63, y: -10}
+        - {x: -38, y: -17}
+        - {x: -31, y: -8}
+        - {x: -34, y: 12}
+        - {x: -25, y: -31}
+        - {x: -63, y: -107}
+        - {x: -63, y: -117}
+        - {x: -52, y: -139}
+        - {x: 74, y: -139}
+        - {x: 85, y: -137}
+        - {x: 85, y: 11}
+        - {x: 77, y: 22}
+      - - {x: 41, y: 135}
+        - {x: 5, y: 135}
+        - {x: -10, y: 130}
+        - {x: -10, y: 88}
+        - {x: -5, y: 75}
+        - {x: 45, y: 75}
+        - {x: 51, y: 83}
+        - {x: 51, y: 127}
+    - name: mussoliniRun_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 39}
+        - {x: 49, y: 56}
+        - {x: 27, y: 62}
+        - {x: -17, y: 62}
+        - {x: -73, y: 45}
+        - {x: -27, y: -43}
+        - {x: -75, y: -113}
+        - {x: -75, y: -118}
+        - {x: -71, y: -121}
+        - {x: 100, y: -121}
+        - {x: 100, y: 39}
+        - {x: 77, y: 44}
+      - - {x: 35, y: 128}
+        - {x: -1, y: 128}
+        - {x: -16, y: 123}
+        - {x: -16, y: 81}
+        - {x: -11, y: 68}
+        - {x: 39, y: 68}
+        - {x: 45, y: 76}
+        - {x: 45, y: 120}
+    - name: mussoliniRun_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 72}
+        - {x: -22, y: 71}
+        - {x: -43, y: 16}
+        - {x: -59, y: -26}
+        - {x: -59, y: -128}
+        - {x: 34, y: -144}
+        - {x: 56, y: -146}
+        - {x: 85, y: -146}
+        - {x: 87, y: -143}
+        - {x: 87, y: 57}
+        - {x: 68, y: 72}
+      - - {x: 52, y: 135}
+        - {x: 16, y: 135}
+        - {x: 1, y: 130}
+        - {x: 1, y: 88}
+        - {x: 6, y: 75}
+        - {x: 56, y: 75}
+        - {x: 62, y: 83}
+        - {x: 62, y: 127}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

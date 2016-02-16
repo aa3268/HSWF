@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 3bd7a31e1b18832489ea4b41b712464c
+timeCreated: 1455568834
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hitlerRun_0
+    21300002: hitlerRun_1
+    21300004: hitlerRun_2
+    21300006: hitlerRun_3
+    21300008: hitlerRun_4
+    21300010: hitlerRun_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hitlerRun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 61}
+        - {x: -76, y: -66}
+        - {x: -76, y: -140}
+        - {x: -75, y: -141}
+        - {x: -50, y: -146}
+        - {x: -31, y: -146}
+        - {x: 5, y: -142}
+        - {x: 62, y: -122}
+        - {x: 62, y: 22}
+        - {x: 41, y: 61}
+      - - {x: 23, y: 128}
+        - {x: 1, y: 128}
+        - {x: -17, y: 119}
+        - {x: -19, y: 110}
+        - {x: -19, y: 82}
+        - {x: -9, y: 69}
+        - {x: 2, y: 68}
+        - {x: 23, y: 68}
+        - {x: 38, y: 79}
+        - {x: 40, y: 85}
+        - {x: 40, y: 112}
+    - name: hitlerRun_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 72}
+        - {x: -86, y: 72}
+        - {x: -86, y: -106}
+        - {x: -85, y: -113}
+        - {x: 95, y: -113}
+        - {x: 95, y: 61}
+        - {x: 75, y: 61}
+      - - {x: -11, y: 135}
+        - {x: -15, y: 134}
+        - {x: -15, y: 89}
+        - {x: -5, y: 76}
+        - {x: 0, y: 75}
+        - {x: 30, y: 75}
+        - {x: 44, y: 88}
+        - {x: 44, y: 123}
+        - {x: 42, y: 135}
+    - name: hitlerRun_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -37}
+        - {x: -36, y: -39}
+        - {x: -66, y: -103}
+        - {x: -66, y: -111}
+        - {x: -64, y: -114}
+        - {x: -31, y: -141}
+        - {x: 50, y: -141}
+        - {x: 50, y: 61}
+        - {x: -31, y: 61}
+        - {x: -51, y: 56}
+      - - {x: 34, y: 128}
+        - {x: -3, y: 128}
+        - {x: -9, y: 119}
+        - {x: -11, y: 110}
+        - {x: -11, y: 82}
+        - {x: -1, y: 69}
+        - {x: 8, y: 68}
+        - {x: 32, y: 68}
+        - {x: 46, y: 79}
+        - {x: 48, y: 81}
+        - {x: 48, y: 119}
+    - name: hitlerRun_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 24}
+        - {x: 52, y: 72}
+        - {x: -44, y: 72}
+        - {x: -59, y: 47}
+        - {x: -63, y: -5}
+        - {x: -63, y: -8}
+        - {x: -38, y: -16}
+        - {x: -33, y: -5}
+        - {x: -33, y: 5}
+        - {x: -40, y: 12}
+        - {x: -32, y: 22}
+        - {x: -32, y: -4}
+        - {x: -41, y: -28}
+        - {x: -63, y: -112}
+        - {x: -63, y: -119}
+        - {x: -32, y: -137}
+        - {x: -20, y: -137}
+        - {x: -31, y: -112}
+        - {x: 71, y: -123}
+        - {x: 83, y: -123}
+      - - {x: 10, y: 135}
+        - {x: -9, y: 128}
+        - {x: -9, y: 89}
+        - {x: 1, y: 76}
+        - {x: 4, y: 75}
+        - {x: 42, y: 75}
+        - {x: 50, y: 88}
+        - {x: 50, y: 129}
+        - {x: 41, y: 135}
+    - name: hitlerRun_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: -87}
+        - {x: 97, y: 40}
+        - {x: 37, y: 61}
+        - {x: -70, y: 61}
+        - {x: -70, y: -119}
+        - {x: 78, y: -119}
+        - {x: 99, y: -101}
+        - {x: 99, y: -87}
+      - - {x: -7, y: 128}
+        - {x: -13, y: 119}
+        - {x: -15, y: 110}
+        - {x: -15, y: 82}
+        - {x: -5, y: 69}
+        - {x: -2, y: 68}
+        - {x: 34, y: 68}
+        - {x: 44, y: 80}
+        - {x: 44, y: 123}
+        - {x: 35, y: 128}
+    - name: hitlerRun_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 72}
+        - {x: -63, y: 26}
+        - {x: -63, y: -117}
+        - {x: 17, y: -145}
+        - {x: 87, y: -145}
+        - {x: 87, y: 39}
+        - {x: 81, y: 72}
+      - - {x: 21, y: 135}
+        - {x: 2, y: 128}
+        - {x: 2, y: 89}
+        - {x: 12, y: 76}
+        - {x: 15, y: 75}
+        - {x: 53, y: 75}
+        - {x: 61, y: 88}
+        - {x: 61, y: 129}
+        - {x: 52, y: 135}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 81f531f32edfb7f4493dbc4fb5ffe1de
+timeCreated: 1455586488
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: meleeRun_0
+    21300002: meleeRun_1
+    21300004: meleeRun_2
+    21300006: meleeRun_3
+    21300008: meleeRun_4
+    21300010: meleeRun_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: meleeRun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -98}
+        - {x: 56, y: -91}
+        - {x: 53, y: -88}
+        - {x: 65, y: -45}
+        - {x: 61, y: -35}
+        - {x: 95, y: -38}
+        - {x: 95, y: 73}
+        - {x: 84, y: 89}
+        - {x: 43, y: 89}
+        - {x: -72, y: 48}
+        - {x: -57, y: -28}
+        - {x: -81, y: -102}
+        - {x: -81, y: -142}
+        - {x: -47, y: -146}
+        - {x: -38, y: -146}
+        - {x: -36, y: -143}
+        - {x: -41, y: -129}
+        - {x: 57, y: -105}
+      - - {x: -12, y: 135}
+        - {x: -23, y: 114}
+        - {x: -23, y: 83}
+        - {x: -7, y: 66}
+        - {x: 27, y: 66}
+        - {x: 45, y: 76}
+        - {x: 46, y: 88}
+        - {x: 46, y: 135}
+    - name: meleeRun_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: 89}
+        - {x: 62, y: 89}
+        - {x: 54, y: 87}
+        - {x: 46, y: 73}
+        - {x: 45, y: 30}
+        - {x: 44, y: 61}
+        - {x: 28, y: 72}
+        - {x: -8, y: 74}
+        - {x: -56, y: 59}
+        - {x: -87, y: -69}
+        - {x: -87, y: -105}
+        - {x: -73, y: -113}
+        - {x: 86, y: -113}
+        - {x: 98, y: -83}
+        - {x: 98, y: 43}
+        - {x: 97, y: 72}
+      - - {x: -8, y: 144}
+        - {x: -19, y: 123}
+        - {x: -19, y: 92}
+        - {x: -3, y: 75}
+        - {x: 31, y: 75}
+        - {x: 49, y: 85}
+        - {x: 50, y: 97}
+        - {x: 50, y: 144}
+    - name: meleeRun_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 64}
+        - {x: 47, y: 16}
+        - {x: 44, y: 49}
+        - {x: 18, y: 69}
+        - {x: -30, y: 55}
+        - {x: -70, y: 12}
+        - {x: -70, y: -114}
+        - {x: -65, y: -120}
+        - {x: -35, y: -110}
+        - {x: 3, y: -104}
+        - {x: 6, y: -99}
+        - {x: 6, y: -96}
+        - {x: 18, y: -44}
+        - {x: 4, y: -115}
+        - {x: 7, y: -141}
+        - {x: 60, y: -141}
+        - {x: 94, y: -79}
+        - {x: 94, y: 79}
+        - {x: 59, y: 79}
+        - {x: 54, y: 78}
+      - - {x: -8, y: 137}
+        - {x: -16, y: 117}
+        - {x: -16, y: 82}
+        - {x: -1, y: 68}
+        - {x: 34, y: 68}
+        - {x: 52, y: 78}
+        - {x: 53, y: 90}
+        - {x: 53, y: 137}
+    - name: meleeRun_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: -29}
+        - {x: 43, y: -16}
+        - {x: 36, y: 1}
+        - {x: 36, y: 31}
+        - {x: 35, y: 31}
+        - {x: 37, y: 22}
+        - {x: 38, y: 0}
+        - {x: 41, y: -8}
+        - {x: 52, y: -33}
+        - {x: 95, y: -35}
+        - {x: 95, y: 72}
+        - {x: 77, y: 89}
+        - {x: 63, y: 89}
+        - {x: 55, y: 87}
+        - {x: 47, y: 73}
+        - {x: 48, y: 31}
+        - {x: 50, y: 29}
+        - {x: 49, y: 24}
+        - {x: 45, y: 60}
+        - {x: 37, y: 68}
+        - {x: -4, y: 78}
+        - {x: -71, y: 43}
+        - {x: -71, y: -9}
+        - {x: -66, y: -118}
+        - {x: -36, y: -138}
+        - {x: 24, y: -138}
+        - {x: 72, y: -125}
+        - {x: 82, y: -115}
+        - {x: 61, y: -36}
+      - - {x: -4, y: 144}
+        - {x: -12, y: 124}
+        - {x: -12, y: 89}
+        - {x: 3, y: 75}
+        - {x: 38, y: 75}
+        - {x: 56, y: 85}
+        - {x: 57, y: 97}
+        - {x: 57, y: 144}
+    - name: meleeRun_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87, y: -83}
+        - {x: 73, y: -82}
+        - {x: 64, y: -86}
+        - {x: 100, y: -39}
+        - {x: 100, y: 20}
+        - {x: 98, y: 72}
+        - {x: 78, y: 89}
+        - {x: 63, y: 89}
+        - {x: 55, y: 87}
+        - {x: 47, y: 73}
+        - {x: 48, y: 31}
+        - {x: 50, y: 29}
+        - {x: 48, y: 17}
+        - {x: 48, y: 56}
+        - {x: 0, y: 74}
+        - {x: -62, y: 41}
+        - {x: -62, y: -128}
+        - {x: 44, y: -128}
+        - {x: 100, y: -110}
+        - {x: 100, y: -87}
+        - {x: 96, y: -84}
+      - - {x: -8, y: 135}
+        - {x: -16, y: 115}
+        - {x: -16, y: 80}
+        - {x: -1, y: 66}
+        - {x: 34, y: 66}
+        - {x: 52, y: 76}
+        - {x: 53, y: 88}
+        - {x: 53, y: 135}
+    - name: meleeRun_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: 78}
+        - {x: 82, y: 89}
+        - {x: 40, y: 89}
+        - {x: -53, y: 47}
+        - {x: -53, y: -119}
+        - {x: -45, y: -149}
+        - {x: 72, y: -149}
+        - {x: 79, y: -141}
+        - {x: 76, y: -125}
+        - {x: 96, y: -63}
+      - - {x: 4, y: 144}
+        - {x: -4, y: 124}
+        - {x: -4, y: 89}
+        - {x: 11, y: 75}
+        - {x: 46, y: 75}
+        - {x: 64, y: 85}
+        - {x: 65, y: 97}
+        - {x: 65, y: 144}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
