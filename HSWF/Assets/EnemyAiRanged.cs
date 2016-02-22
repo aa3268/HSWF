@@ -114,7 +114,7 @@ public class EnemyAiRanged : MonoBehaviour {
 	}
 
 
-	void OnTriggerEnter(Collider col)
+	void OnTriggerEnter2D(Collider2D col)
 	{
 		Debug.Log (col.gameObject.name);
 		if (col.gameObject.tag.Equals ("Player")) {
@@ -122,7 +122,7 @@ public class EnemyAiRanged : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerExit(Collider col)
+	void OnTriggerExit2D(Collider2D col)
 	{
 		current = State.IDLE;
 	}

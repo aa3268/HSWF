@@ -20,7 +20,7 @@ public class Player : MonoBehaviour {
 	[Range(0.1f, 2.0f)]
 	public float speed = 0.1f;
 
-	public Rigidbody body;
+	public Rigidbody2D body;
 
 	public float jumpForce;
 
@@ -89,7 +89,7 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter(Collision col)
+	void OnCollisionEnter2D(Collision2D col)
 	{
 		if (col.gameObject.tag.Equals ("Floor")) {
 			canJump = true;
@@ -158,7 +158,7 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionExit(Collision col)
+	void OnCollisionExit2D(Collision2D col)
 	{
 		if (col.gameObject.tag.Equals ("Floor")) {
 			canJump = false;

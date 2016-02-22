@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PickUp : MonoBehaviour {
 
-	void OnTriggerEnter(Collider col)
+	void OnTriggerEnter2D(Collider2D col)
 	{
 		if (col.gameObject.tag.Equals ("Player")) {
 			int health = col.gameObject.GetComponent<Player>().health;
