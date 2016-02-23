@@ -21,7 +21,7 @@ public class Player : MonoBehaviour {
 	[Range(0.1f, 2.0f)]
 	public float speed = 0.1f;
 
-	public Rigidbody body;
+	public Rigidbody2D body;
 
 	public float jumpForce;
 
