@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-
+	private Animator animator;
 	public Sprite health4;
 	public Sprite health3;
 	public Sprite health2;
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour {
 	[Range(0.1f, 2.0f)]
 	public float speed = 0.1f;
 
-	public Rigidbody2D body;
+	public Rigidbody body;
 
 	public float jumpForce;
 
@@ -48,6 +48,7 @@ public class Player : MonoBehaviour {
 	void Start () {
 		health = 4;
 		canJump = true;
+		animator = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -87,6 +88,7 @@ public class Player : MonoBehaviour {
 	}
 	void Controls()
 	{
+		//animator.SetTrigger ("Idle");
 		if (Input.GetKey (KeyCode.D)) {
 			transform.Translate(Vector3.right * speed);
 		}
@@ -94,7 +96,6 @@ public class Player : MonoBehaviour {
 			transform.Translate(Vector3.left * speed);
 		}
 		if (Input.GetKeyDown (KeyCode.Space) && canJump) {
-			
 			body.AddForce(new Vector3(0f, jumpForce, 0f));
 		}
 
@@ -105,6 +106,7 @@ public class Player : MonoBehaviour {
 
 		}
 	}
+
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
