@@ -17,6 +17,7 @@ public class Player : MonoBehaviour {
 
 	public bool canJump;
 	public bool detach;
+	public bool facingRight = true;
 
 	[Range(0.1f, 2.0f)]
 	public float speed = 0.1f;
@@ -58,6 +59,7 @@ public class Player : MonoBehaviour {
 
 		if(health == 0)
 		{
+			animator.SetTrigger ("realDeath");
 			bg.Stop();
 			text.text = "You died.";
 			panel.SetActive(true);
@@ -88,14 +90,29 @@ public class Player : MonoBehaviour {
 	}
 	void Controls()
 	{
-		//animator.SetTrigger ("Idle");
+		float move = Input.GetAxis ("Horizontal");
+		animator.SetFloat ("speed", Mathf.Abs (move));
+
+
+		if (move > 0 && !facingRight) {
+			Flip ();
+		} else if (move < 0 && facingRight) {
+			Flip();
+		}
+			
+		if (Input.GetKey (KeyCode.S)) {
+			animator.SetTrigger ("idle");
+		}
 		if (Input.GetKey (KeyCode.D)) {
 			transform.Translate(Vector3.right * speed);
+			animator.SetTrigger ("run");
 		}
 		if (Input.GetKey (KeyCode.A)) {
 			transform.Translate(Vector3.left * speed);
+			animator.SetTrigger ("run");
 		}
 		if (Input.GetKeyDown (KeyCode.Space) && canJump) {
+			animator.SetTrigger ("jump");
 			body.AddForce(new Vector3(0f, jumpForce, 0f));
 		}
 
@@ -107,6 +124,13 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	void Flip()
+	{
+		facingRight = !facingRight;
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
+	}
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
@@ -115,6 +139,7 @@ public class Player : MonoBehaviour {
 		}
 		if (col.gameObject.tag.Equals ("Bullet")) {
 			Destroy (col.gameObject);
+			animator.SetTrigger("hit");
 			if (health > 0) {
 				health--;
 				if(!src.isPlaying)
